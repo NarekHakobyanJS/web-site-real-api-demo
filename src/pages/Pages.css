@@ -1,0 +1,43 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.film-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.loading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.error{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color : red;
+}
+
+.paginator-container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.paginator-page{
+    margin: 15px;
+    list-style: none;
+    padding: 5px 9px;
+}
+.paginator-next{
+    font-weight: 800;
+}
+.paginator-prev{
+    font-weight: 800;
+}
+.paginator-active{
+    background: gold;
+    color : red;
+}
